@@ -1,0 +1,43 @@
+
+
+.background-container {
+    position: relative;
+    width: 60%;
+    background-repeat: repeat-x;
+    color: rgb(84, 60, 28);
+    left: 25%;
+    
+}
+
+.background-image {
+    width: 80%;
+    height: 70%;
+    object-fit: cover; /* Đảm bảo ảnh bao phủ toàn bộ container */
+}
+
+.overlay-button {
+    position: absolute;
+    top: 100%; /* Đặt button ở giữa theo chiều dọc */
+    left: 40%; /* Đặt button ở giữa theo chiều ngang */
+    transform: translate(-50%, -50%); /* Dịch chuyển button về chính giữa */
+    padding: 10px 20px;
+    background-color: rgba(198, 35, 133, 0.8); /* Màu nền button với độ trong suốt */
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+    font-size: 25px;
+    color: rgb(4, 4, 7);
+}
+.overlay-button:hover {
+    background-color: pink;
+}
+.alert {
+    color: pink;
+    padding: 15px;
+    border: 1px solid transparent;
+    border-radius: .25rem;
+    margin-bottom: 20px;
+    background-color: blueviolet;
+    border-color: #f5c6cb;
+
+}
